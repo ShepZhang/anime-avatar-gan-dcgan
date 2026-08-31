@@ -2,6 +2,10 @@
 
 这是一个面向动漫头像生成场景的 GAN/DCGAN 实验项目，包含基础 GAN、DCGAN、图像预处理、多轮训练日志、模型权重、生成样图和相关数据归档。
 
+![DCGAN 当前最佳生成结果](DCGAN/sample/best_fake_images_latest.png)
+
+**项目导航：** [产品案例](docs/PRODUCT_CASE_STUDY.md) · [实验效果画廊](docs/EXPERIMENT_GALLERY.md) · [训练技术笔记](docs/DCGAN_64x64_Training_README.md) · [数据归档清单](DATASET_MANIFEST.md)
+
 ## 项目概览
 
 - 使用全连接 GAN 作为教学与效果对照基线。
@@ -21,6 +25,8 @@ requirements.txt     Python 依赖
 DATASET_MANIFEST.md  数据归档说明和来源
 SHA256SUMS.txt        大文件完整性校验值
 ```
+
+其中 `docs/PRODUCT_CASE_STUDY.md` 从产品背景、用户场景、MVP、实验决策、结果、风险和路线图等角度复盘项目；`docs/EXPERIMENT_GALLERY.md` 使用真实保存的训练样图展示 GAN 与 DCGAN 的效果差异及 DCGAN 的训练演进。
 
 ## 推荐模型
 
@@ -68,3 +74,4 @@ python main.py
 ## 项目状态
 
 这是实习期间形成的实验性原型和历史备份，重点是保存完整实验过程并支持后续复现，不代表生产环境模型。
+
